@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Title from "./Title";
 
 class Bio extends Component {
 	
@@ -14,7 +15,7 @@ class Bio extends Component {
 		return(
 			<div>
 				<h1>Hello!</h1>
-			        <p>My name is Nathan-Long Nguyen. I'm a graduate from the University of Houston</p>
+			        <Title/>
 			        <p>I have always been interested in tech and dreamed of working in that specific field</p>
 			        {
 			          this.state.displayBio ? (

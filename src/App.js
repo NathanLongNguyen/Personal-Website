@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Projects from "./Projects";
 import Socials from "./Socials";
 import Bio from "./Bio";
-import profile from "./assets/NN.jpg"
+import profile from "./assets/NN.jpg";
+
 
 class App extends Component {
 
